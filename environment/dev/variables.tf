@@ -45,8 +45,8 @@ variable "db_user_password" {
   sensitive   = true
 }
 
-variable "db_name" {
-  description = "Name of the database to create in the RDS instance"
+variable "db_name_suffix" {
+  description = "Suffix to add to the name of the database to create in the RDS instance"
   type        = string
 }
 

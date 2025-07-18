@@ -35,7 +35,7 @@ module "secrets" {
   aurora_short_project_name = var.aurora_short_project_name
   general_kms_key_id        = module.kms.general_kms_key_id # This is the KMS key ID output from the kms module
   aurora_cluster_identifier = "${var.aurora_short_project_name}-${var.aurora_cluster_identifier_suffix}"
-  db_name                   = "${var.short_project_name}-${var.db_name}"
+  db_name                   = "${var.aurora_short_project_name}-${var.db_name_suffix}"
   db_user                   = var.db_user
   db_user_password          = var.db_user_password
   master_user               = var.master_user

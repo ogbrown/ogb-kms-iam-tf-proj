@@ -1,2 +1,2 @@
 # ogb-kms-iam-tf-proj
-AWS KMS and IAM Terraform
+AWS KMS and SECRETS and IAM Terraform

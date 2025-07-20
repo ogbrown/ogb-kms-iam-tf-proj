@@ -13,6 +13,11 @@ variable "short_project_name" {
   type        = string
 }
 
+variable "eks_short_project_name" {
+  description = "Short name for the project, used in resource names"
+  type        = string
+}
+
 variable "tags" {
   type = map(string)
 }

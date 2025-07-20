@@ -59,3 +59,13 @@ variable "tags" {
   type = map(string)
 }
 
+variable "eks_short_project_name" {
+  description = "Short name for the project, used in resource names"
+  type        = string
+}
+
+variable "eks_cluster_identifier_suffix" {
+  description = "Suffix for the cluster identifier to ensure uniqueness"
+  type        = string
+}
+
